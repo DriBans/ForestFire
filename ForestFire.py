@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.ensemble import RandomForestRegressor
 
-data = pd.read_csv("C:/Bansal Data/Drishti Data/VS code/Python/ForestFire.py/forestfires.csv")
+data = pd.read_csv("C:/Bansal Data/Drishti Data/VS code/Python/ForestFire.py/California_Fire_Incidents.csv")
 data.head()
 
 data.value_counts()
